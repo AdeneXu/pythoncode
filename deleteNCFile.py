@@ -15,7 +15,7 @@ for n in range(1,76):
     dirpath = dir + "/dnc_file"
     if os.path.isdir(dirpath):
         shutil.rmtree(dirpath)
-        print("删除成功====%d",%n dirpath)
+        print("删除成功====",dirpath)
     else:
         print("该路径不存在")
 
